@@ -1,0 +1,34 @@
+.footer{
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.social{
+  font-size: 20px;
+  text-align: right;
+  width: 25%;
+}
+
+.fa{
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.pow{
+  margin-top: 15px;
+  text-align: center;
+  width: 50%;
+}
+
+.infoDiv{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.lnk{
+  width: 25%;
+}
