@@ -33,25 +33,49 @@
           <li class="nav-item">
             <a class="nav-link" href="currency.html"><span class="lin">Currency</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="crypto.html"><span class="lin">Crypto</span></a>
+          <li class="nav-item active">
+            <a class="nav-link" href="crypto.html"><span class="lin-active">Crypto</span></a>
           </li>
         </ul>
         </div>
       </nav>
     </header>
-    <div class="cnt">
-      <div class="subcnt">
-        <img src="../images\contact.jpg">
-      </div>
-      <div class="subcnt">
-        We would love to hear from you. Please feel free to leave any feedback for us. In case of any queries or clarifications please use any of the below
-        means to get in touch with us. We look forward to having a fruitful relation with you.<br><br><br><br><br>
-        +91-991062664<br>
-        arjit.sethi@gmail.com
-      </div>
+    <h1>Crypto Currency Rate</h1><br>
+    <h3>Digital Currency</h3>
+    <input type="text" id="myText3" placeholder="Enter currency code eg. BTC,AIR" class="nam">
+    <br><h3>Physical Currency</h3>
+    <input type="text" id="myText4" placeholder="Enter currency code eg. USD,INR" class="nam">
+    <br><button onclick="getRes()" class="buton">Search</button>
+    <div id="dat" class="curtab">
     </div>
-    <div class="footer" style="position:fixed">
+    <h2>List of some currency:-</h2>
+    <table class="curtab">
+      <tr>
+        <th>Digital Currency</th>
+        <th>Physical Currency</th>
+      </tr>
+      <tr>
+        <td>BTC:Bitcoin</td>
+        <td>USD:United States Dollar</td>
+      </tr>
+      <tr>
+        <td>AIR:AirToken</td>
+        <td>INR:Indian Rupee</td>
+      </tr>
+      <tr>
+        <td>BRD:Bread</td>
+        <td>JNY:Japanese Yen</td>
+      </tr>
+      <tr>
+        <td>BTA:Bata</td>
+        <td>CNY:Chinese Yuan</td>
+      </tr>
+      <tr>
+        <td>CRW:Crown</td>
+        <td>HKD:Hong Kong Dollar</td>
+      </tr>
+    </table>
+    <div class="footer">
       <div class="infoDiv">
         <div class="lnk">
           <ul class="nav navbar-nav">
@@ -68,5 +92,6 @@
         </div>
       </div>
     </div>
+    <script src="../js\crypto.js"></script>
   </body>
 </html>

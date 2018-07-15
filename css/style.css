@@ -1,10 +1,15 @@
 .footer{
-  position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+.bod{
+  background-color: #ffebe6;
 }
 
 .social{
@@ -16,6 +21,16 @@
 .fa{
   margin-top: 15px;
   margin-right: 20px;
+}
+
+.nam{
+  width: 75%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding:10px;
 }
 
 .pow{
@@ -31,4 +46,120 @@
 
 .lnk{
   width: 25%;
+}
+
+.gallery{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.top{
+  font-family: Algerian;
+  font-size: 30px;
+}
+
+.head{
+  background-color: orange;
+}
+
+.lin{
+  color: black;
+}
+
+.lin-active{
+  color: black;
+  font-weight: bold;
+}
+
+.feature{
+  width:80%;
+  margin:auto;
+  border: 2px solid;
+  border-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 75vh;
+  background-color: #ffff00;
+}
+
+.featBox{
+  border: 2px solid;
+  border-color: grey;
+  border-radius: 5px;
+  width: 50%;
+  height: 50%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ff3300;
+}
+
+.featIco{
+    width: 30%;
+}
+
+.featName{
+  font-size: 300%;
+  margin: auto;
+}
+
+.curdisp{
+  font-size: 500%;
+  font-family: Arial;
+  margin-left: 20px;
+}
+
+.buton{
+  background-color: orange;
+  border:none;
+  border-radius: 12px;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.lstcur{
+  font-size: 200%;
+}
+
+.curtab{
+  font-size: 200%;
+  margin: 10px;
+}
+
+th{
+  border: 2px solid;
+}
+
+td{
+  border: 2px solid;
+}
+
+.log{
+  width:75%;
+  margin: 10px;
+  margin-left:12%;
+}
+
+.abt{
+  font-family: Arial;
+  font-size: 200%;
+  margin: 5px;
+}
+
+.cnt{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.subcnt{
+  width:45%;
+  margin: 10px;
 }

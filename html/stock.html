@@ -27,8 +27,8 @@
           <li class="nav-item">
             <a class="nav-link" href="../index.html"><span class="lin">Home</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="stock.html"><span class="lin">Stocks</span></a>
+          <li class="nav-item active">
+            <a class="nav-link" href="stock.html"><span class="lin-active">Stocks</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="currency.html"><span class="lin">Currency</span></a>
@@ -40,18 +40,25 @@
         </div>
       </nav>
     </header>
-    <div class="cnt">
-      <div class="subcnt">
-        <img src="../images\contact.jpg">
-      </div>
-      <div class="subcnt">
-        We would love to hear from you. Please feel free to leave any feedback for us. In case of any queries or clarifications please use any of the below
-        means to get in touch with us. We look forward to having a fruitful relation with you.<br><br><br><br><br>
-        +91-991062664<br>
-        arjit.sethi@gmail.com
-      </div>
+    <h1>Get Latest Stock Prices</h1>
+    <input type="text" id="myText5" placeholder="Enter company symbol eg. MSFT" class="nam"><button onclick="getRe()" class="buton">Search</button>
+    <div id="stdat" class="curdisp"></div>
+    <h5>****Disclaimer:-- All Stock Prices are in the currency of the stock market they are listed in.</h5>
+    <div>
+      <h2>List of some Company Codes</h2>
+      <ul class="lstcur">
+        <li>MSFT:-Microsoft</li>
+        <li>INFY.NS:-Infosys</li>
+        <li>ApolloTyre:-Apollo Tyres Limited</li>
+        <li>LT.NS:-Larsen and Toubro</li>
+        <li>SBUX:-Starbucks</li>
+        <li>YHOO:-Yahoo</li>
+        <li>NKE:-Nike</li>
+        <li>TCS.NS:-Tata Consultancy Services</li>
+        <li>WIPRO.NS:-Wipro Limited</li>
+      </ul>
     </div>
-    <div class="footer" style="position:fixed">
+    <div class="footer">
       <div class="infoDiv">
         <div class="lnk">
           <ul class="nav navbar-nav">
@@ -68,5 +75,6 @@
         </div>
       </div>
     </div>
+    <script src="../js\stock.js"></script>
   </body>
 </html>

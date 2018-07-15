@@ -30,8 +30,8 @@
           <li class="nav-item">
             <a class="nav-link" href="stock.html"><span class="lin">Stocks</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="currency.html"><span class="lin">Currency</span></a>
+          <li class="nav-item active">
+            <a class="nav-link" href="currency.html"><span class="lin-active">Currency</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="crypto.html"><span class="lin">Crypto</span></a>
@@ -40,18 +40,29 @@
         </div>
       </nav>
     </header>
-    <div class="cnt">
-      <div class="subcnt">
-        <img src="../images\contact.jpg">
-      </div>
-      <div class="subcnt">
-        We would love to hear from you. Please feel free to leave any feedback for us. In case of any queries or clarifications please use any of the below
-        means to get in touch with us. We look forward to having a fruitful relation with you.<br><br><br><br><br>
-        +91-991062664<br>
-        arjit.sethi@gmail.com
-      </div>
+    <h1>Exchange Rate</h1><br>
+    <h3>From</h3>
+    <input type="text" id="myText1" placeholder="Enter currency code eg. USD,INR" class="nam">
+    <br><h3>To</h3>
+    <input type="text" id="myText2" placeholder="Enter currency code eg. USD,INR" class="nam">
+    <br><button onclick="getResults()" class="buton">Search</button>
+    <div id="fromcurr" class="curdisp"></div>
+    <div>
+      <h2>List of some Currency Codes</h2>
+      <ul class="lstcur">
+        <li>INR:- Indian National Rupee</li>
+        <li>USD:- United States Dollar</li>
+        <li>BTC:- Bitcoin</li>
+        <li>AED:- UAE Dirham</li>
+        <li>AUD:- Australian Dollar</li>
+        <li>EUR:- Euro</li>
+        <li>GBP:- British Pount Sterling</li>
+        <li>JPY:- Japanese Yen</li>
+        <li>SGD:- Singaporian Dollar</li>
+        <li>HKD:- Hong Kong Dollar</li>
+      </ul>
     </div>
-    <div class="footer" style="position:fixed">
+    <div class="footer">
       <div class="infoDiv">
         <div class="lnk">
           <ul class="nav navbar-nav">
@@ -68,5 +79,6 @@
         </div>
       </div>
     </div>
+    <script src="../js\Dom.js"></script>
   </body>
 </html>

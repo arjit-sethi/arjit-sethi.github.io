@@ -2,64 +2,81 @@
 <html>
   <head>
     <title>
-      DOMAINATOR
+      XCHANGE
     </title>
-    <link rel="icon" href="\images\d.ico" />
+    <link rel="icon" href="images\x.ico" />
     <link rel="stylesheet" href="css\style.css">
     <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body class="bod">
     <header>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="index.html">DOMAINATOR</a>
+      <nav class="navbar navbar-expand-md navbar-dark head">
+        <a class="navbar-brand" href="index.html"><span class="top">XCHANGE</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html"><span class="lin-active">Home</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="html\domain.html">Domains</a>
+            <a class="nav-link" href="html\stock.html"><span class="lin">Stocks</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="html\website.html">Websites</a>
+            <a class="nav-link" href="html\currency.html"><span class="lin">Currency</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="html\hosting.html">Hosting</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="html\websec.html">Web Security</a>
+            <a class="nav-link" href="html\crypto.html"><span class="lin">Crypto</span></a>
           </li>
         </ul>
         </div>
-    </nav>
+      </nav>
     </header>
-    <div>
+    <div class="gallery">
+        <div class="w3-content w3-display-container">
+          <a href="html\currency.html"><img class="mySlides" src="images\currency.jpg" style="width:100%;height:50vh;"></a>
+          <a href="html\stock.html"><img class="mySlides" src="images\stock.jpg" style="width:100%;height:50vh;"></a>
+          <a href="html\crypto.html"><img class="mySlides" src="images\crypto.png" style="width:100%;height:50vh;"></a>
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
     </div>
-    <footer class="footer">
+    <div class="feature">
+      <div class="featBox" style="width:40%">
+        <img src="images\stocklogo.jpg" class="featIco" style="width:50%"><p class="featName"><a href="html\stock.html">Stocks</a><p>
+      </div>
+      <div class="featBox" style="width:60%">
+        <img src="images\cryptologo.png" class="featIco" style="width:40%"><p class="featName"><a href="html\crypto.html">CryptoCurrency</a><p>
+      </div>
+      <div class="featBox" style="width:100%">
+        <img src="images\currencylogo.png" class="featIco"><p class="featName" style="font-size:450%"><a href="html\currency.html">Currency Exchange</a><p>
+      </div>
+    </div>
+    <div class="footer">
       <div class="infoDiv">
         <div class="lnk">
           <ul class="nav navbar-nav">
-            <li><a href="contactus.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
-            <li><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign"></span> About Us</a></li>
+            <li><a href="html\contactus.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
+            <li><a href="html\aboutus.html"><span class="glyphicon glyphicon-info-sign"></span> About Us</a></li>
           </ul>
         </div>
-        <p class="pow">Powered by GoDaddy</p>
+        <p class="pow">Powered by <a href="https://www.alphavantage.co/">Alpha Vantage</a></p>
         <div class="social">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-google"></a>
-          <a href="#" class="fa fa-instagram"></a>
+          <a href="html\socialmedia.html" class="fa fa-facebook"></a>
+          <a href="html\socialmedia.html" class="fa fa-twitter"></a>
+          <a href="html\socialmedia.html" class="fa fa-google"></a>
+          <a href="html\socialmedia.html" class="fa fa-instagram"></a>
         </div>
       </div>
-    </footer>
+    </div>
+    <script src="js\App.js"></script>
   </body>
 </html>
