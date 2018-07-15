@@ -17,4 +17,4 @@ Insert the API key at:-
 2) Dom.js - line 6
 3) stock.js - line 5
 
-Live Demo:-  
+Live Demo:-  https://arjit-sethi.github.io/
